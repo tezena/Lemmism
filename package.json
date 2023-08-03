@@ -13,6 +13,7 @@
     "react-intersection-observer": "^9.5.2",
     "react-masonry-css": "^1.0.16",
     "react-scripts": "5.0.1",
+    "react-scroll-into-view-if-needed": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

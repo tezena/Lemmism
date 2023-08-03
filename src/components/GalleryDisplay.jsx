@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Masonry from 'react-masonry-css';
 import '../Gallery.css'
 import images from "./imges";
+import Hove from "./Hove";
 
 function GalleryDisplay (){
   const [currentImage, setCurrentImage] = React.useState(null);
@@ -28,7 +29,7 @@ function GalleryDisplay (){
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
+        columnClassName="my-masonry-grid_column "
       >
         {images.map((image, idx) => (
           <div
@@ -37,11 +38,10 @@ function GalleryDisplay (){
             onMouseOver={() => handleMouseOver(image)}
             onMouseOut={handleMouseOut}
           >
-            <img src={image.src} alt={image.alt} className="img-fluid" />
+            <img src={image.src} alt={image.alt} className="img-fluid"  />
             {currentImage === image && (
-              <div className="image-info">
-                <h5>{image.title}</h5>
-                <p>{image.description}</p>
+              <div className="image-info" >
+                <Hove/>
               </div>
             )}
           </div>
