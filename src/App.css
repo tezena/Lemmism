@@ -63,3 +63,14 @@
 .unlock:hover{
   opacity: .8;
 }
+
+.mybtn{
+  color:white;
+  background-color: #FFB86B;
+  font-size: 18;
+  font-weight:600;
+  width: 150px;
+  padding: 4px;
+  border-radius: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
