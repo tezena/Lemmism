@@ -1,32 +1,32 @@
 import React from "react";
 import { ReactDOM } from "react";
+import "./../App.css"
+import { Button } from "react-bootstrap";
+import {AiOutlineHeart} from "react-icons/ai"
+import {GrAdd} from "react-icons/gr"
 
 
 function Hove() {
     return (
-        <div className="position-relative ">
-            <div className="d-flex justify-content-between">
-                <div>
-                    
-                </div>
-                <div>
-                    <h4>hi</h4>
-              </div>
-            </div>
-            
-            <div className="d-flex flex-row justify-content-between position-absolute  bottom-0">
-                <div className="">
-                    <h4>hi</h4>
-                </div>
-                <div className="w-50">
-
-                </div>
-                <div className="">
-                    <h4>hii</h4>
-              </div>
-            </div>
-            
-        </div>
+<div className="row h-100  ">
+  <div className="col h-100  d-flex flex-column justify-content-between" >
+    <div name="left-top" className="">
+   
+    </div>
+    <div name="left=bottom" className="">
+       
+    </div>
+  </div>
+  <div  className=" col h-100  d-flex flex-column justify-content-between" >
+    <div  className="d-flex flex-row justify-content-end">
+    <AiOutlineHeart className="icon me-1"/>
+    <GrAdd className="icon"/>
+    </div> 
+    <div className="d-flex flex-row justify-content-end">
+         <button className="unlock" >Unlock</button>
+    </div>   
+  </div>
+</div>
     )
 }
 
