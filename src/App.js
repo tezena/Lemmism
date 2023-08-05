@@ -3,13 +3,14 @@ import './App.css';
 import NavBar from "./components/NavBar"
 import Gallery from './pages/gallery';
 import Education from './pages/educationpage';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
-      {/* // <Gallery/> */}
-      <Education/>
+      {/* <Education/> */}
+      {/* <Gallery/> */}
+      <Home />
     </div>
   );
 }
