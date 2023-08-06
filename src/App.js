@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       {/* <Education/> */}
       {/* <Gallery/> */}
-      {/* <Home /> */}
-      <Blog />
+      <Home />
+      {/* <Blog /> */}
     </div>
   );
 }

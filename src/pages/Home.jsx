@@ -3,6 +3,7 @@ import HeroSection from '../components/LandingPageComponents/Hero'
 import Art from '../components/LandingPageComponents/NextToHero'
 import '../components/LandingPageComponents/style.css'
 import Display from '../components/LandingPageComponents/Display'
+import Footer from '../components/Footer'
 function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ function Home() {
     <div className='hvh bg-secondary overflow-hidden' >
            <Display /> 
     </div>
+    <Footer />
         
     </>
   )
