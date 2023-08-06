@@ -6,7 +6,8 @@ import Education from './pages/educationpage';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import { Route, Router, Routes, BrowserRouter } from 'react-router-dom';
-import 
+
+
 
 
 function App() {
