@@ -38,9 +38,9 @@ function GalleryDisplay (){
             onMouseOver={() => handleMouseOver(image)}
             onMouseOut={handleMouseOut}
           >
-            <img src={image.src} alt={image.alt} className="img-fluid"  />
+            <img src={image.src} alt={image.alt} className="img-fluid"/>
             {currentImage === image && (
-              <div className="image-info" >
+              <div className="image-info">
                 <Hove/>
               </div>
             )}
