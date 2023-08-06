@@ -6,3 +6,10 @@
 .button {
   background: #FFB86B;
 }
+
+.hhh {
+  height: 100vh;
+}
+.hidesb::-webkit-scrollbar{
+  display: none;
+}

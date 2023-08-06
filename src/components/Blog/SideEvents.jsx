@@ -2,7 +2,7 @@ import React from 'react'
 
 function SideEvents() {
   return (
-    <div className='bg-primary text-light p-2 m-2 d-md-block'>
+    <div className='text-black  p-2 mb-2 border rounded-2 d-md-block bg-warning opacity-75'>
         <h2>Event title</h2>
         <p>some desciription</p>
     </div>
