@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className="text-dark py-4 mt-5" style={{backgroundColor:'#e0dcdc'}}>
+    <footer className="text-dark py-4 mt-5 " style={{backgroundColor:'#D9D9D9'}}>
       <Container>
         <Row>
           {/* First Column */}

@@ -25,7 +25,7 @@ function GalleryDisplay (){
   };
 
   return (
-    <div className="container">
+    <div className="px-5 h-50  ">
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"

@@ -8,8 +8,7 @@ import images from "../components/imges";
 
 function Gallery() {
     return (
-        <div className="vh-100">
-            <Navigation />
+        <div className="h-50">
             <HeroSection/>
             <GalleryDisplay images={images} />
             

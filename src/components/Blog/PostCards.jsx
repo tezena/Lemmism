@@ -12,7 +12,7 @@ function Card() {
             This is a wider card with supporting text below as a natural lead-in
             to additional content.
           </p>
-          <a href="#" class="bg-primary text-light">
+          <a href="#" class="bg-primary text-light ">
            Contribute +
           </a>
         </div>

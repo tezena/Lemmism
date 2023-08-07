@@ -5,7 +5,7 @@ import SideEvents from './SideEvents'
 function BlogsDisplay() {
   return (
     <div className='container mx-auto row '>
-        <div className="col-8 display b">
+        <div className="col-8 overflow-auto hhh hidesb ">
         <div className="row"><PostCards/></div>
         <div className="row"><PostCards/></div>
         <div className="row"><PostCards/></div>

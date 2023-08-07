@@ -10,10 +10,9 @@ function Home() {
     <HeroSection />
     <Art />
 
-    <div className='hvh bg-secondary overflow-hidden' >
+    <div className='hhh  overflow-scroll hidesb' >
            <Display /> 
     </div>
-    <Footer />
         
     </>
   )
