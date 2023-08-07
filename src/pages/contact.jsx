@@ -7,7 +7,7 @@ import MessageUs from "../components/contact/messageUs";
 
 function Contact() {
     return (
-        <div className="h-100">
+        <div className="">
             <CoHero />
             <MessageUs/>
         </div>
