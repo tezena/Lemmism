@@ -6,7 +6,6 @@ import { Card, Button } from 'react-bootstrap';
 
 function BlogCard({ image, title, text, buttonText}){
   return (
-<<<<<<< HEAD
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
@@ -38,21 +37,9 @@ function BlogCard({ image, title, text, buttonText}){
               Thumbnail
             </text>
           </svg>
-=======
-    <Card style={{ width: '80%', margin: 'auto' }} className=" my-3 border border border-warning border-5  rounded rounded-5">
-      <Card.Body className="d-flex  align-items-start row ">
-      <Card.Img variant="top" src={image} className="ml-auto flex-shrink-0  w-25 col-sm-6 " style={{maxWidth: ''}}/>
-        <div className="text-part p-2 ps-lg-5   text-start  col-12   col-md-6" style={{maxWidth: ''}}>
-          <Card.Title as="h1" style={{ color: "#FFB86B" }}>{title}</Card.Title>
-          <Card.Text as="h5" className=" fw-light p-1 fs-6   " style={{color:"#A19F9F"}}>
-           {text}
-          </Card.Text>
-          <button className='mybtn' >{buttonText} </button>
->>>>>>> 2a88d2dcaae9f5328602728d017a2376ae293631
-        </div>
-       
-      </Card.Body>
-    </Card>
+          </div>
+          </div>
+ </div>
   );
 };
 

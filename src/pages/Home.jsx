@@ -14,7 +14,6 @@ function Home() {
     <div className='hvh  overflow-y-scroll hidesb' >
            <Display /> 
     </div>
-    <Footer />
         
     </>
   )

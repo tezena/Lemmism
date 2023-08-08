@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import GalleryDisplay from "./GalleryDisplay";
+import GalleryDisplay from "./Gallery/GalleryDisplay";
 import "./../App.css"
 
 
