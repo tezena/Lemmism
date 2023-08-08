@@ -9,10 +9,13 @@ import edu from "../components/Blog/eduData";
 
 function Education() {
     return (
-        <div className="vh-100 ">
+        <>
             <EduHero />
+            <div className="px-auto">
             <DisplayCard data={edu}/>      
-        </div>
+
+            </div>
+        </>
     )
 }
 

@@ -91,3 +91,39 @@
   border-radius: 10px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
+/* Animate the left image */
+.img-left {
+  animation: slideFromLeft 1s ease-in-out;
+  opacity: 1; 
+}
+
+/* Animate the right image */
+.img-right {
+  animation: slideFromRight 1s ease-in-out;
+  opacity: 1; 
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0; 
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1; 
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateY(100%);
+    opacity: 0; 
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1; 
+  }
+}

@@ -1,46 +1,56 @@
 import React from "react";
-import { ReactDOM } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import GalleryDisplay from "./Gallery/GalleryDisplay";
-import "./../App.css"
 
 
+function HeroSection() {
+    // State to track whether the component has fully loaded
+    const [isLoaded, setIsLoaded] = React.useState(false);
 
+    // Set isLoaded to true after a slight delay
+    React.useEffect(() => {
+      setTimeout(() => {
+        setIsLoaded(true);
+      }, 100);
+    }, []);
+  return (
+    <div style={{
+      backgroundImage: 'url(edubg.jpg)', opacity: 1,
+      backgroundPosition: "center", backgroundSize:"cover" }} className="overflow-hidden">
 
-
-function EduHero() {
-    return (
-        
-        <div className=" h-50 " style={{backgroundColor:"#333333"}}>
-            <Container className="row mx-0">
-                <div className="col h-100 d-flex flex-row p-5">
-                        <div className="w-50 h-100 p-5">
-                             <img src="assets/images/img1.jpg" className=" w-100"/>
-                        </div> 
-                        <div className="w-50 h-100 p-3">
-                            <img src="assets/images/img3.jpg"  className="h-25 w-100"/>
-                            <img src="assets/images/img3.jpg" className="h-25 w-100"/>
-                    </div>
-                </div>
-                <div className="col h-100 text-white py-5 ps-5 w-50">
-                    <h1>Education</h1>
-                    <div className=" p-4">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <div className=" d-flex  justify-content-between px-5 w-100 ">
-                        <button className=" mybtn">Traditional</button>
-                        <button className="  mybtn">Digital</button>
-                        <button className="  mybtn">Digital</button>
-                    </div>
-                </div>
-            </Container>
-             
-
+      <div className="hero-bg text-light" style={{ height: "100vh" }}>
+        <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 h-100 align-items-center rounded-3 border shadow-lg m-0">
+        <div className="col-lg-6">
+            <div className="row h-100">
+            <div className={`col-6 ${isLoaded ? 'img-left' : ''}`}>
+                <img src="/assets/images/img1.jpg" alt="" className="img-fluid" />
+              </div>
+              <div className={`col-6 ${isLoaded ? 'img-right' : ''}`}>
+                <img src="/assets/images/img2.jpg" alt="" className=" img-fluid" />
+              </div>
+            </div>
+          
+          </div>
+          <div className="col-lg-6 p-3 p-lg-5 pt-lg-3 bg-black bg-opacity-50">
+            <h1 className="display-4 fw-bold lh-1">Lemma Guyya Foundation</h1>
+            <p className="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div className="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3">
+              <button
+                type="button"
+                className="btn btn-warning btn-lg text-light px-4 me-md-2 fw-bold"
+              >
+                Donate
+              </button>
+            </div>
+          </div>
+          
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default EduHero;
+export default HeroSection;

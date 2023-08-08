@@ -9,15 +9,14 @@ function BlogCard({ image, title, text, buttonText}){
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Events</strong>
-          <h3 class="mb-0">Art Exibition</h3>
+          {/* <strong class="d-inline-block mb-2 text-success">Events</strong> */}
+          <h3 class="mb-0">{title}</h3>
           <div class="mb-1 text-muted">Nov 11/2023</div>
           <p class="mb-auto">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content.
+            {text}
           </p>
           <a href="#" class="bg-primary text-light text-decoration-none mx-auto px-4 py-1 border rounded-2 bg-warning">
-           Location
+           {buttonText}
           </a>
         </div>
         <div class="col-auto d-none d-lg-block">
@@ -25,7 +24,7 @@ function BlogCard({ image, title, text, buttonText}){
             class="bd-placeholder-img"
             width="200"
             height="250"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns={image}
             role="img"
             aria-label="Placeholder: Thumbnail"
             preserveAspectRatio="xMidYMid slice"
