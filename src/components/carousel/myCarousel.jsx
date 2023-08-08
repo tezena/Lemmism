@@ -3,6 +3,8 @@ import Slider from 'react-slick';
  import 'slick-carousel/slick/slick.css';
  import 'slick-carousel/slick/slick-theme.css';
  import CarouselBanner from "./banner";
+ import slidesData from "./slideData";
+ import NestedSlider from "./NestedSlider";
 
 
 
@@ -17,26 +19,18 @@ import Slider from 'react-slick';
   autoplaySpeed: 3000,
 };
 
-const slidesData=[
-    {
-        url:"assets/images/img3.jpg"
-    },
-    {
-        url:"assets/images/img2.jpg"
-    },
-    {
-        url:"assets/images/img1.jpg"
-    }
-]
+
 
 
 
 function Carousel(){
     return(
-      <div className='  w-100' style={{}}>
+      <div className='  w-100 position-relative ' style={{zIndex:"1"}}>
       <Slider {...settings}>
       {slidesData.map((item,index)=>{return <CarouselBanner img={item.url}/>})}
     </Slider>
+    <NestedSlider/>
+
 </div>)
 
 }

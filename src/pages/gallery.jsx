@@ -8,7 +8,7 @@ import images from "../components/imges";
 
 function Gallery() {
     return (
-        <div className="vh-100">
+        <div className="position-relative">
             <HeroSection/>
             <GalleryDisplay images={images} />
             

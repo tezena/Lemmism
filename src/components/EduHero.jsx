@@ -14,7 +14,7 @@ function HeroSection() {
   return (
     <div style={{
       backgroundImage: 'url(edubg.jpg)', opacity: 1,
-      backgroundPosition: "center", backgroundSize:"cover" }} className="overflow-hidden">
+      backgroundPosition: "center", backgroundSize:"cover" }} className="overflow-hidden ">
 
       <div className="hero-bg text-light" style={{ height: "100vh" }}>
         <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 h-100 align-items-center rounded-3 border shadow-lg m-0">
