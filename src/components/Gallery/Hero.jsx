@@ -5,7 +5,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 const HeroSection = () => {
   return (
-      <div className="hero-section h-50 text-white d-flex align-items-center hero-background mb-5 p-3" style={{
+      <div className="hero-section h-100 text-white d-flex align-items-center hero-background mb-5" style={{
           backgroundImage: 'url(assets/images/img4.jpg)', opacity: 1,
           backgroundPosition: "center", backgroundSize:"cover" }}>
       <Container className='mt-o'>

@@ -2,9 +2,7 @@ import React from "react";
 import { ReactDOM } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Masonry from 'react-masonry-css';
-import '../../Gallery.css'
 import images from "../imges";
-import Hove from "../Hove";
 
 function Display (){
 

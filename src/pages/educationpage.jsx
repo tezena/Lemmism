@@ -1,18 +1,21 @@
 import React from "react";
 import { ReactDOM } from "react";
 import Navigation from "../components/NavBar";
-import EduHero from "../components/EduHero";
+import EduHero from "../components/Education/EduHero";
 import Card from "../components/Blog/Card";
-import DisplayCard from "../components/Blog/dipayCard";
+import DisplayECard from "../components/Education/eduCardDisplay";
 import edu from "../components/Blog/eduData";
 
 
 function Education() {
     return (
-        <div className=" ">
+        <>
             <EduHero />
-            <DisplayCard data={edu}/>      
-        </div>
+            <div className="px-auto">
+            <DisplayECard data={edu}/>      
+
+            </div>
+        </>
     )
 }
 

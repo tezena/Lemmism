@@ -4,11 +4,12 @@ import { Navbar, Nav, NavDropdown, Container, Button } from 'react-bootstrap';
 function Navigation() {
   return (
     <Navbar bg="light" expand="lg" className="justify-content-lg-center">
-      <Container>
+      <Container >
         <Navbar.Brand href="/">
           <img src="/logo.png" alt="Logo" className="logo-img" />
         </Navbar.Brand>
 
+        <>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
@@ -21,10 +22,11 @@ function Navigation() {
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/contact">Contact Us</Nav.Link>
+        <Button variant="warning text-light">Donate</Button>
+
           </Nav>
         </Navbar.Collapse>
-
-        <Button variant="warning text-light">Donate</Button>
+        </>
       </Container>
     </Navbar>
   );

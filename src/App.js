@@ -7,8 +7,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import { Route, Router, Routes, BrowserRouter } from 'react-router-dom';
 import Footer from './components/Footer';
-import Navigation from './components/NavBar';
-import Contact from './pages/contact';
+import About from './pages/About';
 
 
 
@@ -17,15 +16,15 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navigation/>
+      <NavBar />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route  path='/gallery' element={<Gallery />} />
-          <Route  path='/blog' element={<Blog/>} />
-          <Route path='/education' element={<Education />} />
-          <Route  path='/contact' element={<Contact /> }/>
-        </Routes>  
-        <Footer/>
+          <Route  path='/blog' element={<Blog />} />
+          <Route  path='/education' element={<Education /> }/>
+          <Route  path='/about' element={<About /> }/>
+        </Routes> 
+        <Footer />   
       </BrowserRouter>
     </div>
   );

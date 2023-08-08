@@ -4,15 +4,17 @@ import Art from '../components/LandingPageComponents/NextToHero'
 import '../components/LandingPageComponents/style.css'
 import Display from '../components/LandingPageComponents/Display'
 import Footer from '../components/Footer'
+import './page.css'
+import Carousel from '../components/carousel/myCarousel'
 function Home() {
   return (
     <>
     <HeroSection />
     <Art />
-
-    <div className='hhh  overflow-scroll hidesb' >
+    <Carousel />
+    {/* <div className='hvh  overflow-y-scroll hidesb' >
            <Display /> 
-    </div>
+    </div> */}
         
     </>
   )

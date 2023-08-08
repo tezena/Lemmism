@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactDOM } from "react";
-import "./../App.css"
 import { Button } from "react-bootstrap";
 import {AiOutlineHeart} from "react-icons/ai"
 import {GrAdd} from "react-icons/gr"
