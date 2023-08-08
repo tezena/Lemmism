@@ -14,24 +14,27 @@ function HeroSection() {
   return (
     <div style={{
       backgroundImage: 'url(edubg.jpg)', opacity: 1,
-      backgroundPosition: "center", backgroundSize:"cover" }} className="overflow-hidden ">
+      backgroundPosition: "center", backgroundSize:"cover",height:"400px" }} className="overflow-hidden ">
 
-      <div className="hero-bg text-light" style={{ height: "100vh" }}>
-        <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 h-100 align-items-center rounded-3 border shadow-lg m-0">
-        <div className="col-lg-6">
-            <div className="row h-100">
+      <div className="hero-bg text-light  pb-5" style={{ height: "100%" }}>
+        <div className="row p-4 pb-0  pt-lg-5 h-100 align-items-center rounded-3 border shadow-lg mx-auto">
+        <div className=" col-md-5 col-12">
+            <div className="row h-25  pb-1 ">
             <div className={`col-6 ${isLoaded ? 'img-left' : ''}`}>
-                <img src="/assets/images/img1.jpg" alt="" className="img-fluid" />
+                <img src="/assets/images/img3.jpg" alt="" className="img-fluid" />
               </div>
               <div className={`col-6 ${isLoaded ? 'img-right' : ''}`}>
-                <img src="/assets/images/img2.jpg" alt="" className=" img-fluid" />
+                <img src="/assets/images/img3.jpg" alt="" className=" img-fluid" />
               </div>
             </div>
           
           </div>
-          <div className="col-lg-6 p-3 p-lg-5 pt-lg-3 bg-black bg-opacity-50">
-            <h1 className="display-4 fw-bold lh-1">Lemma Guyya Foundation</h1>
-            <p className="lead">
+          <div className="col-1">
+
+          </div>
+          <div className=" col-md-6 col-12 p-3 pb-lg-5   bg-black bg-opacity-50 p-lg-1 ">
+            <h1 className="display-4 fw-bold lh-1 fs-3 ">Lemma Guyya Foundation</h1>
+            <p className="lead fs-6 ">
               Quickly design and customize responsive mobile-first sites with
               Bootstrap, the world’s most popular front-end open source toolkit,
               featuring Sass variables and mixins, responsive grid system,

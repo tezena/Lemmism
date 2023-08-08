@@ -16,12 +16,6 @@ const addressInfo = [
         icon: " ",
         Describtion: "Lorem ipsum dolor sit amet",
         value:"Lorem ipsum dolor sit amet"
-    },
-    {
-        title: "Address",
-        icon: " ",
-        Describtion: "Lorem ipsum dolor sit amet",
-        value:"Lorem ipsum dolor sit amet"
     }
 ]
 

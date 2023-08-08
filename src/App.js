@@ -8,6 +8,9 @@ import Blog from './pages/Blog';
 import { Route, Router, Routes, BrowserRouter } from 'react-router-dom';
 import Footer from './components/Footer';
 import About from './pages/About';
+import Contact from './pages/contact';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 
@@ -22,7 +25,8 @@ function App() {
           <Route  path='/gallery' element={<Gallery />} />
           <Route  path='/blog' element={<Blog />} />
           <Route  path='/education' element={<Education /> }/>
-          <Route  path='/about' element={<About /> }/>
+          <Route path='/about' element={<About />} />
+          <Route  path='/contact' element={<Contact /> }/>
         </Routes> 
         <Footer />   
       </BrowserRouter>
