@@ -15,7 +15,7 @@ function BlogECard({ image, title, text, buttonText}){
           <p class="mb-auto">
             {text}
           </p>
-          <a href="#" class="bg-primary text-light text-decoration-none mx-auto px-4 py-1 border rounded-2 bg-warning">
+          <a href="/payment" class="bg-primary text-light text-decoration-none mx-auto px-4 py-1 border rounded-2 bg-warning">
            {buttonText}
           </a>
         </div>
