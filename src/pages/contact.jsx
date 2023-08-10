@@ -9,8 +9,9 @@ import Map from "../components/contact/map";
 function Contact() {
     return (
         <div className="">
-            <CoHero />
-            <MessageUs />
+                <MessageUs />
+                <CoHero />
+        
             <Map/>
         </div>
     )
