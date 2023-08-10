@@ -8,8 +8,7 @@ import Map from "../components/contact/map";
 
 function Contact() {
     return (
-        <div className="">
-            
+        <div className="">     
             <MessageUs />
             <CoHero />
             <Map/>
