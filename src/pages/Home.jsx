@@ -12,9 +12,6 @@ function Home() {
     <HeroSection />
     <Art />
     <Carousel />
-    {/* <div className='hvh  overflow-y-scroll hidesb' >
-           <Display /> 
-    </div> */}
         
     </>
   )

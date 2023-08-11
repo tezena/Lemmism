@@ -7,7 +7,7 @@ import {GrAdd} from "react-icons/gr"
 
 function Hove() {
     return (
-<div className="row h-100  ">
+<div className="row h-100  w-100">
   <div className="col h-100  d-flex flex-column justify-content-between" >
     <div name="left-top" className="">
    
